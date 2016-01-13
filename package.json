@@ -17,7 +17,7 @@
   "author": "webrtc",
   "license": "MIT",
   "dependencies": {
-    "express": "^3.4.8",
+    "express": "^3.21.2",
     "node-static": "^0.7.7",
     "socket.io": "^0.9.17"
   }

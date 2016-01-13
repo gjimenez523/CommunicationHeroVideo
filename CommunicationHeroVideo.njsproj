@@ -31,13 +31,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="js\lib\adapter.js" />
+    <Compile Include="js\main.js" />
     <Compile Include="server.js" />
     <Content Include="index.html" />
+    <Content Include="js\.svn\all-wcprops" />
+    <Content Include="js\.svn\entries" />
+    <Content Include="js\.svn\text-base\adapter.js.svn-base" />
+    <Content Include="js\.svn\text-base\ccv.js.svn-base" />
+    <Content Include="js\.svn\text-base\face.js.svn-base" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="js\" />
+    <Folder Include="js\.svn\" />
+    <Folder Include="js\.svn\text-base\" />
     <Folder Include="js\lib\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
