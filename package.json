@@ -1,10 +1,24 @@
 {
   "name": "CommunicationHeroVideo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CommunicationHeroVideo",
-  "main": "server.js",
-  "author": {
-    "name": "Gabriel",
-    "email": ""
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gjimenez523/CommunicationHeroVideo"
+  },
+  "keywords": [
+    "webrtc",
+    "codelab"
+  ],
+  "author": "Gabriel",
+  "license": "",
+  "dependencies": {
+    "express": "^3.4.8",
+    "node-static": "^0.7.7",
+    "socket.io": "^0.9.17"
   }
 }

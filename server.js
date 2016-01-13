@@ -1,6 +1,6 @@
-﻿var http = require('http');
-var port = process.env.port || 1337;
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World1\n');
-}).listen(port);
+var static = require('node-static');
+var http = require('http');
+var file = new(static.Server)();
+var app = http.createServer(function (req, res) {
+  file.serve(req, res);
+}).listen(2013);
