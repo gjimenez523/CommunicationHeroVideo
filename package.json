@@ -1,21 +1,21 @@
 {
-  "name": "CommunicationHeroVideo",
+  "name": "codelab",
   "version": "0.0.1",
-  "description": "CommunicationHeroVideo",
+  "description": "WebRTC codelab",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gjimenez523/CommunicationHeroVideo"
+    "url": "https://bitbucket.org/webrtc/codelab"
   },
   "keywords": [
     "webrtc",
     "codelab"
   ],
-  "author": "Gabriel",
-  "license": "",
+  "author": "webrtc",
+  "license": "MIT",
   "dependencies": {
     "express": "^3.4.8",
     "node-static": "^0.7.7",
