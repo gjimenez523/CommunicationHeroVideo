@@ -1,0 +1,10 @@
+{
+  "name": "CommunicationHeroVideo",
+  "version": "0.0.0",
+  "description": "CommunicationHeroVideo",
+  "main": "server.js",
+  "author": {
+    "name": "Gabriel",
+    "email": ""
+  }
+}
